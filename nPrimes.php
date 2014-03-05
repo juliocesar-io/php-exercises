@@ -25,7 +25,7 @@ function main(){
             $this->nDiv = $this->nDiv + 1; // Agregamos un divisor mas. 
          } 
      }    
-if($this->nDiv == 2 or $i == 1){// Si tiene 2 divisores ó es 1 --> Es primo      
+if($this->nDiv == 2 or $i ==! 1){// Si tiene 2 divisores ó es diferente de 1 --> Es primo      
      
      echo "<p>".$i."</p>"; 
      } 
