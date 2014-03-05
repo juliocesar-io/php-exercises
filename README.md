@@ -1,4 +1,4 @@
-php_exercices
+php_exercises
 =============
 
 Some basic exercises to learn php using instances, classes, and render by html.
