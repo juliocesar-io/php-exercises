@@ -1,0 +1,71 @@
+a {
+   font-family: helvetica;
+	font-size: 16px;
+        text-decoration: none;
+        color :#708090;
+
+}
+
+span {
+     font-family: helvetica;
+	font-size: 16px;
+        text-decoration: none;
+        color: #D3D3D3
+}
+
+h2 {
+    font-family: helvetica;
+	font-size: 18px;
+	color:#696969;
+}
+
+body{
+   background-color:#708090;
+
+}
+section{
+	background-color:white;
+	padding: 1em;
+	 
+	 margin: 0em 10em 0em 10em;
+
+}
+h1 {
+           color: white;
+	font-family: helvetica;
+	text-align: center;
+}
+
+ul li  {
+	font-family: helvetica;
+	font-size: 16px;
+           color:#696969;
+}
+
+p {
+	font-family: helvetica;
+	font-size: 15px;
+	color:#696969;
+}
+
+input {
+	background: #D3D3D3;
+	color:#696969;
+
+}
+footer {
+    background-color: #696969;
+    
+    
+    
+}
+
+ #footer {
+    background-color: #696969;
+    font-size: 18px;
+}
+
+h3{
+    color: white;
+    font-family:helvetica;
+}
