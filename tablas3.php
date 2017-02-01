@@ -2,7 +2,7 @@
 <body>
 
 
-<p>Tablas de multiplicar del 1 al 10</p>
+<h2>Tablas de multiplicar del 1 al 10</h2>
 <?php
 $n1=1;
 while($n1<=10)
@@ -18,6 +18,25 @@ $n2++;
 echo "</table>";
 $n1++;
 }
+
+$cols = 10;
+$rows = 10;
+
+echo "<h2>Tablas de pitagoras </h2>";
+
+echo "<table border=\"1\">";
+
+        for ($r = 1; $r < $rows; $r++){
+
+            echo'<tr>';
+
+            for ($c = 1; $c < $cols; $c++)
+                echo '<td>' .$c*$r.'</td>';
+           echo '</tr>';
+
+        }
+
+  echo"</table>";
 
 ?>
 </body>
