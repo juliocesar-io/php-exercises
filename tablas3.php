@@ -19,8 +19,8 @@ echo "</table>";
 $n1++;
 }
 
-$cols = 10;
-$rows = 10;
+$cols = 11;
+$rows = 11;
 
 echo "<h2>Tablas de pitagoras </h2>";
 
