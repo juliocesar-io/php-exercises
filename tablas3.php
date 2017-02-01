@@ -1,21 +1,19 @@
 <head><title>Tablas de multiplicar </title></head>
 <body>
 <?php
-$ciclo1=1;
-while($ciclo1<=10)
+$n1=1;
+while($n1<=10)
 {
-echo "<table border=3><tr align=center><td colspan=5>Tabla de multiplicar del ".$ciclo1.":</td></tr>";
-$ciclo2=1;
-while($ciclo2<=10)
+echo "<table border=1><tr align=center><td colspan=2>Tabla de multiplicar del ".$n1.":</td></tr>";
+$n2=1;
+while($n2<=10)
 {
-$mult=$ciclo1*$ciclo2;
-echo "<tr align=center><td>".$ciclo1."</td><td> X </td><td>".$ciclo2."</td><td> = </td><td>".$mult."</td></tr>";
-$ciclo2++;
+$mult=$n1*$n2;
+echo "<tr align=center><td>".$n1."</td><td> X </td><td>".$n2."</td><td> = </td><td>".$mult."</td></tr>";
+$n2++;
 }
 echo "</table>";
-$ciclo1++;
+$n1++;
 }
 ?>
-</h1>
-</center>
 </body>
