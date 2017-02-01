@@ -1,5 +1,8 @@
-<head><title>Tablas de multiplicar </title></head>
+<head><title>Ejercicio 1 </title></head>
 <body>
+
+
+<p>Tablas de multiplicar del 1 al 10</p>
 <?php
 $n1=1;
 while($n1<=10)
@@ -15,5 +18,6 @@ $n2++;
 echo "</table>";
 $n1++;
 }
+
 ?>
 </body>
