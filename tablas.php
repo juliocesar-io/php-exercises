@@ -17,9 +17,6 @@ echo "<table border=\"1\">";
 
   echo"</table>";
 
-
-
-  <?php
 $start = 1;
 $end = 10;
 
@@ -38,6 +35,6 @@ echo $x*$y;
 echo “</td>”;
 }
 }
-print “</tr>”;
+echo “</tr>”;
 }
-print “</table>”;?>
+echo “</table>”;?>
