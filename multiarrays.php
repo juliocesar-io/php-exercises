@@ -17,7 +17,7 @@ for($c=0; $c<5; $c++){
 print_r($a);
 
 
-function getPrice($v, $iva = 0.16, &$t ){
+function getPrice($v, &$t, $iva = 0.16 ){
 
     $t = $v + ($v * $iva);
 
