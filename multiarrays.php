@@ -17,11 +17,11 @@ for($c=0; $c<5; $c++){
 print_r($a);
 
 
-function getPrice($v, $iva = 0.16){
+function getPrice($v, $iva = 0.16, &$t ){
 
-    $total = $v + ($v * $iva);
+    $t = $v + ($v * $iva);
 
-    echo $total;
+    echo $t;
 }
 
 getPrice(7000);
