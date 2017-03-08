@@ -6,6 +6,9 @@
  * Time: 15:10
  */
 
+
+// Ejemplo de un multiarray generado
+
 $a = array();
 for($c=0; $c<5; $c++){
     $a[$c] = array();
@@ -14,15 +17,7 @@ for($c=0; $c<5; $c++){
     }
 }
 
+
 print_r($a);
 
-
-function getPrice($v, &$t, $iva = 0.16 ){
-
-    $t = $v + ($v * $iva);
-
-    echo $t;
-}
-
-getPrice(7000);
 
